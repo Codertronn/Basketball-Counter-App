@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h3 class="home">HOME</h3>
+                <h1 id="home-score" class="score">0</h1>
+                <button onclick="incrementHome1Point()" class="point-btn">+1</button>
+                <button onclick="incrementHome2Point()" class="point-btn">+2</button>
+                <button onclick="incrementHome3Point()" class="point-btn">+3</button>
+            </div>
+            <div class="away">
+                <h3 class="away">AWAY</h3>
+                <h1 class="score" id="away-score">0</h1>
+                <button onclick="incrementAway1Point()" class="point-btn">+1</button>
+                <button onclick="incrementAway2Point()" class="point-btn">+2</button>
+                <button onclick="incrementAway3Point()" class="point-btn">+3</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
